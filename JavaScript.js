@@ -16,7 +16,7 @@ function boxClicked(e){
         e.target.innerText = currentPlayer  
         
         if (playerHasWon !== false) {
-            alert(`${currentPlayer} player has WON`)
+            //alert(`${currentPlayer} player has WON`)
         }  
         currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }        
@@ -51,3 +51,4 @@ function resetFunc(){
     spaces.fill(null);
     boxes.forEach(boxes => boxes.innerText = '')
 }
+//this file is incomplete 
