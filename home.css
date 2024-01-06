@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    overflow: hidden;
+}
+body{
+    background: azure;
+}
+.container {
+    width: 100%;
+    height: 100dvh;
+    background-color: beige;
+}
+h2 span{
+    color: blue;
+    cursor: pointer;
+}
+h2{
+    cursor: pointer;
+    text-decoration: none;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 10px;
+    background-color:bisque; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    color: black;
+}
+
+ul {
+    display: flex;
+    margin-left: 110px;    
+}
+img li{
+    width: 200px;
+    height: 200px;
+    left: 0;
+    border-radius:10px;
+    m
+}
+img li:hover{
+    width: 220px;
+}
+.content1{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    background-color: azure;
+    display: flex;
+    margin-top: 40px;
+    padding: 5px 10px 5px 70px;
+}
+.content1 h3{
+    margin: 40px 10px;
+}
+.vertical{
+    width: 9px;
+    height: 200px;
+    background: linear-gradient(to top, red, green, blue);
+    margin-right: 50px;
+}
+.content1 p {
+    margin-top: 50px;
+}
+#mySkills{
+    margin: 40px 0px 50px 450px;
+}
+#welcome{
+    margin: 40px 0px 40px 420px;
+}
+.skills img {
+    width: 90px;
+    height: 100px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#copyright p{
+    margin: 40px 0px 40px 400px;
+    color: grey;
+    font-size: 0.7rem;
+}
+.social-links{
+    margin: 30px 0px 0px 450px;
+}
+.social-links img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+h4{
+    color: blue;
+    margin: 0px 0px 30px 18px;
+}
+
+
+/* media queries for mobile phone*/
+
+@media ( width < 400px ) {
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    color: black;
+    position: fixed;
+    top: 0;
+}
+#copyright p{
+    margin: 40px 0px 40px 130px;
+    font-size: 0.5rem;
+    color: grey;
+}
+.social-links{
+    margin: 30px 0px 0px 150px;
+}
+.social-links img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+h4{
+    color: blue;
+    margin: 0px 0px 30px 0px;
+}
+ul {
+    display: flex;
+    margin-left: 110px;    
+}
+img li{
+    width: 200px;
+    height: 200px;
+    left: 0;
+    border-radius:10px;
+    m
+}
+img li:hover{
+    width: 220px;
+}
+.content1{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    background-color: blanchedalmond;
+    display: flex;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.content1 h3{
+    margin: 40px 10px;
+}
+.vertical{
+    width: 6px;
+    height: 200px;
+    background: linear-gradient(to top, red, green, blue);
+    margin-right: 10px;
+}
+.content1 p {
+    margin-top: 38px;
+}
+#mySkills{
+    margin: 40px 0px 10px 140px;
+}
+#welcome{
+    margin: 40px 0px 40px 120px;
+}
+.skills img {
+    width: 60px;
+    height: 60px;
+}
+.skills{
+    margin-left: 5px;
+}
+.footer{
+    width: 100%;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+   
+}
+
